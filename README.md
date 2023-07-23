@@ -1,11 +1,11 @@
 <td style="width: 20%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png" width="20%"></td>
-<p><strong>Home Assiatant - ESP8266 e ESPHome </strong></p>
+<p><strong>Home Assiatant-ESP32-ESP8266-ESPHome </strong></p>
 <p><strong>Prof Epaminondas Lage</strong></p>
 <a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
 
 # Índice 
 * [Introdução](#Introdução)
-* [ESPHOME e ESP8266](#ESPHOME-e-ESP8266)
+* [ESP32 e ESP8266](#ESP32-e-ESP8266)
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-# Sites relacionados ao ESP8266 e ESPHome
+# Sites relacionados ao ESP32, ESP8266 e ESPHome
 * https://
 * https://
   
