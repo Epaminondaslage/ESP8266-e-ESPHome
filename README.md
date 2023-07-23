@@ -56,16 +56,16 @@ Existem vários modelos de microcontroladores ESP32 disponíveis no mercado, cad
 
 Além desses modelos, existem variações e versões personalizadas do ESP32 disponíveis de diferentes fabricantes e fornecedores. As características gerais do ESP32 incluem:
 
-•	Processador dual-core Xtensa LX6 de 32 bits.
-•	Clock de até 240 MHz.
-•	Wi-Fi integrado (802.11b/g/n).
-•	Bluetooth integrado (até a versão 5.0).
-•	Diversos periféricos, como GPIOs, UART, SPI, I2C, PWM e ADC.
-•	Suporte para criptografia e segurança.
-•	Capacidade de memória flash interna, geralmente variando de 4 MB a 16 MB.
-•	Possibilidade de expansão de memória externa usando PSRAM.
-•	Suporte para atualizações de firmware OTA (Over-The-Air).
-•	Opções de baixo consumo de energia.
+*	Processador dual-core Xtensa LX6 de 32 bits.
+*	Clock de até 240 MHz.
+*	Wi-Fi integrado (802.11b/g/n).
+*	Bluetooth integrado (até a versão 5.0).
+*	Diversos periféricos, como GPIOs, UART, SPI, I2C, PWM e ADC.
+*	Suporte para criptografia e segurança.
+*	Capacidade de memória flash interna, geralmente variando de 4 MB a 16 MB.
+*	Possibilidade de expansão de memória externa usando PSRAM.
+*  Suporte para atualizações de firmware OTA (Over-The-Air).
+*	Opções de baixo consumo de energia.
 
 Integração com vários frameworks e plataformas de desenvolvimento, como o ESP-IDF (Espressif IoT Development Framework) e o Arduino. 
 
@@ -90,40 +90,48 @@ O ESP8266 é uma opção popular para projetos de IoT devido à sua conectividad
 
 * Colar o link no preferences:  
 
-https://arduino.esp8266.com/stable/package_esp8266com_index.json
+   https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-ch340-drivers. Node mcu V3
+* ch340-drivers. Node mcu V3
 
-https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all
+   https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all
 
-CP210x USB to UART Bridge  Node mcu V3
+* CP210x USB to UART Bridge  Node mcu V3
 
-https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers 
+   https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers 
 
-# COMO utilizar NodeMCU ESP8266
+# Como utilizar o NodeMCU ESP8266
+
+Passo 1: 
 
 Passo 2: Configurar o complemento ESPHome Dashboard
+
 •	Depois de instalar o complemento, clique em "Configuração".
 •	Aqui você pode ajustar as configurações do complemento, como a porta que ele usará.
 
 Passo 3: Crie um arquivo de configuração YAML para o dispositivo ESP
+
 •	No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard".
 •	Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP.
 •	Dê um nome para o dispositivo e, em seguida, clique em "Criar".
 
 Passo 4: Preencha o arquivo de configuração YAML
+
 •	Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.
 •	O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.
 
 Passo 5: Verificar a configuração e compilar o firmware
+
 •	Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
 •	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo.
 
 Passo 6: Flash do firmware para o dispositivo ESP
+
 •	Após a compilação, o firmware estará disponível para download.
 •	Você precisará conecta o dispositivo ESP ao computador via USB, para então utilizar uma ferramenta como o "esphome-flasher" para enviar o firmware para o dispositivo.
 
 Passo 7: Monitorar o dispositivo no Home Assistant
+
 •	Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
 •	Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
 
