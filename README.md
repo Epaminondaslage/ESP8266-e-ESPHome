@@ -139,7 +139,8 @@ Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome,
 
 
 # Sites relacionados ao ESP32, ESP8266 e ESPHome
-* https://
+
+* [Site do ESPhome](https://esphome.io/index.html)
 * https://
   
 # Status do Projeto
