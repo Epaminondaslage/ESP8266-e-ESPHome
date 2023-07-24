@@ -29,6 +29,47 @@ Quando se trata de comunicação com o Home Assistant, o ESPHome possui duas op�
    
 # Acionamento de Relé no ESP8266-NodeMCU conectando ao Home Assistant por ESPHome API nativa 
 
+Passo 1: Escolher a placa a der sutilizada assim como o módulo DHT11 e porta do NodeMCU a ser utilizada.
+
+
+Passo 2: Configurar o complemento ESPHome Dashboard
+
+•	Depois de instalar o complemento, clique em "Configuração".
+•	Aqui você pode ajustar as configurações do complemento, como a porta que ele usará.
+
+Passo 3: Crie um arquivo de configuração YAML para o dispositivo ESP
+
+•	No Home Assistant, acesse novamente o painel esquerdo e clique em "Supervisor", depois selecione "ESPHome Dashboard".
+•	Clique no botão "+", localizado no canto inferior direito, para adicionar um novo dispositivo ESP.
+•	Dê um nome para o dispositivo e, em seguida, clique em "Criar".
+
+Passo 4: Preencha o arquivo de configuração YAML
+
+•	Você será redirecionado para a página de edição do dispositivo. Aqui, você pode começar a preencher o arquivo de configuração YAML com as informações específicas do dispositivo e dos sensores que deseja adicionar.
+•	O ESPHome oferece uma documentação abrangente sobre as configurações disponíveis que você pode adicionar ao arquivo YAML para personalizar o comportamento do dispositivo.
+
+Passo 5: Verificar a configuração e compilar o firmware
+
+•	Depois de preencher o arquivo YAML, clique em "Salvar" para verificar a configuração.
+•	Se não houver erros, clique em "Compile" para criar o firmware personalizado para o dispositivo.
+
+Passo 6: Flash do firmware para o dispositivo ESP
+
+•	Após a compilação, o firmware estará disponível para download.
+•	Você precisará conecta o dispositivo ESP ao computador via USB, para então utilizar uma ferramenta como o "esphome-flasher" para enviar o firmware para o dispositivo.
+
+Passo 7: Monitorar o dispositivo no Home Assistant
+
+•	Quando o dispositivo estiver conectado ao Home Assistant com o novo firmware, ele será automaticamente detectado e adicionado à interface do usuário do Home Assistant.
+•	Agora você pode monitorar e controlar o dispositivo diretamente através do Home Assistant.
+
+Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome, você precisará recompilar e reenviar o firmware para o dispositivo ESP.
+
+# Acionamento de Rele no ESP8266 conectando ao Home Assistant por ESPHome MQTT  
+
+
+# Acionamento de Rele duplo no ESP32 conectando ao Home Assistant por ESPHome API Nativa 
+
 Passo 1: Escolher a placa a der sutilizada assim como o módulo redé e porta do NodeMCU a ser utilizada para acionar o Rede
 
 Passo 2: Configurar o complemento ESPHome Dashboard
@@ -64,20 +105,16 @@ Passo 7: Monitorar o dispositivo no Home Assistant
 
 Lembre-se de que, ao adicionar ou modificar sensores no arquivo YAML do ESPHome, você precisará recompilar e reenviar o firmware para o dispositivo ESP.
 
-# Acionamento de Rele no ESP8266 conectando ao Home Assistant por ESPHome 
-
-
-
-
-# Acionamento de Rele duplo no ESP32 conectando ao Home Assistant por ESPHome 
-
+# Acionamento de Rele duplo no ESP32 conectando ao Home Assistant por ESPHome MQTT 
 
 
 
 # Sites relacionados ao ESP32, ESP8266 e ESPHome
 
 * [Site do ESPhome](https://esphome.io/index.html)
-* https://
+* [Pinout ESP32](https://www.studiopieters.nl/esp32-pinout/)
+* [ESP32 WROOM Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)
+* 
   
 # Status do Projeto
 
